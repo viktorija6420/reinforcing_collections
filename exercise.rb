@@ -22,7 +22,7 @@ puts room_number
 # if the number of planned attendees will fit in the room.
 puts events_in_201 = hash[:data][:events]
 events_in_201.each do |event|
-  if event[:room_id] == 2 && event[:attendees] <=50
+  if event[:room_id] == 1 && event[:attendees] <=50
     print "ok"
   end
 end
